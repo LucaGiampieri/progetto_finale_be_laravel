@@ -5,7 +5,7 @@
 @section('content')
 
     <div class="container py-3">
-        <a href="{{ route('monsters.create') }}">Aggiungi un nuovo mostro</a>
+        <a class="btn btn-outline-success" href="{{ route('monsters.create') }}">Aggiungi un nuovo mostro</a>
     </div>
 
     <div class="row">
@@ -13,7 +13,7 @@
             <div class="col-12 col-md-6 col-lg-4 mb-4">
                 <div class="card p-3 h-100">
                     <h2 class="h5 text-center">
-                        <a href="{{ route('monsters.show', $monster) }}">
+                        <a class="btn btn-outline-secondary" href="{{ route('monsters.show', $monster) }}">
                             {{ $monster->name }}
                         </a>
                     </h2>

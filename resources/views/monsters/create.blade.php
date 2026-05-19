@@ -13,10 +13,11 @@
         </div>
 
         <div class="form-control mb-3 d-flex flex-column">
+            <img id="preview" class="mt-3 img-fluid d-none" style="max-width: 250px;">
+
             <label for="image">Immagine</label>
             <input id="image" name="image" type="file" accept="image/*">
 
-            <img id="preview" class="mt-3 img-fluid d-none" style="max-width: 250px;">
         </div>
 
         <div class="form-control mb-3 d-flex flex-column">
@@ -29,29 +30,33 @@
         </div>
 
         <div class="form-control mb-3 d-flex flex-column">
-            <label for="types">Tipologie</label>
-            @foreach ($types as $type)
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" name="types[]" value="{{ $type->id }}"
-                        id="type-{{ $type->id }}">
+            <label class="mb-3 text-center" for="types">Tipologie</label>
+            <div class="d-flex flex-wrap gap-4 justify-content-center">
+                @foreach ($types as $type)
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="types[]" value="{{ $type->id }}"
+                            id="type-{{ $type->id }}">
 
-                    <label class="form-check-label" for="type-{{ $type->id }}">
-                        {{ $type->name }}
-                    </label>
-                </div>
-            @endforeach
+                        <label class="form-check-label" for="type-{{ $type->id }}">
+                            {{ $type->name }}
+                        </label>
+                    </div>
+                @endforeach
+            </div>
         </div>
 
         <div class="form-control mb-3 d-flex flex-column">
             <label for="description">Descrizione</label>
-            <textarea name="description" id="description"></textarea>
+            <textarea name="description" id="description" width="100%" rows="5"></textarea>
         </div>
 
-        <input type="submit" value="Salva">
+        <input class="btn btn-success" type="submit" value="Salva">
 
     </form>
 
-    <a href="{{ route('monsters.index') }}">Torna alla home</a>
+    <div class="mt-3">
+        <a class="btn btn-outline-primary" href="{{ route('monsters.index') }}">Torna alla home</a>
+    </div>
 
     @push('scripts')
         <script>
