@@ -3,6 +3,8 @@
 
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\MonsterController;
+use App\Http\Controllers\Admin\MonsterSizeController;
+use App\Http\Controllers\Admin\MonsterTypeController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -30,5 +32,11 @@ Route::middleware(['auth', 'verified'])
 
 Route::resource('monsters', MonsterController::class)
 ->middleware(['auth', 'verified']);
+
+Route::resource('monsterSizes', MonsterSizeController::class)
+->middleware((['auth', 'verified']));
+
+Route::resource('monsterTypes', MonsterTypeController::class)
+->middleware((['auth', 'verified']));
 
 require __DIR__.'/auth.php';

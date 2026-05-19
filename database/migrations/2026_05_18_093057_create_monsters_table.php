@@ -18,6 +18,7 @@ return new class () extends Migration {
             $table->string('image')->nullable();
 
             $table->foreignId('monster_size_id')
+            ->nullable()
             ->constrained()
             ->cascadeOnDelete();
 

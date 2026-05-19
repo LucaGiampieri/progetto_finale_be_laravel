@@ -5,7 +5,14 @@
 @section('content')
 
     <div class="container py-3">
-        <a class="btn btn-outline-success" href="{{ route('monsters.create') }}">Aggiungi un nuovo mostro</a>
+        <div class="mb-4 d-flex justify-content-between">
+
+            <a class="btn btn-outline-success" href="{{ route('monsters.create') }}">Aggiungi un nuovo mostro</a>
+            <div>
+                <a class="btn btn-outline-primary " href="{{ route('monsterSizes.index') }}">Vai alle taglie</a>
+                <a class="btn btn-outline-primary " href="{{ route('monsterTypes.index') }}">Vai alle tipologie</a>
+            </div>
+        </div>
     </div>
 
     <div class="row">

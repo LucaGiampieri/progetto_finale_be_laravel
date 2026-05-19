@@ -24,13 +24,18 @@
                 </button>
             </div>
 
-            <h5>Taglia: {{ $monster->size->name }}</h5>
-            <p>{{ $monster->size->description }}</p>
+            @if ($monster->size)
+                <h5>Taglia: {{ $monster->size?->name }}</h5>
+                <p>{{ $monster->size?->description }}</p>
 
-            @foreach ($monster->types as $type)
-                <h6>{{ $type->name }}</h6>
-                <p>{{ $type->description }}</p>
-            @endforeach
+            @endif
+
+            @if ($monster->types)
+                @foreach ($monster->types as $type)
+                    <h6>{{ $type->name }}</h6>
+                    <p>{{ $type->description }}</p>
+                @endforeach
+            @endif
 
             <h5>Descrizione:</h5>
             <p>{{ $monster->description }}</p>
