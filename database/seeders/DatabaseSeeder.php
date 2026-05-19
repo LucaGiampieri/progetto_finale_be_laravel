@@ -16,9 +16,9 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $this->call([
-         MonsterTypeSeeder::class,
-         MonsterSizeSeeder::class,
-         MonsterSeeder::class
+            MonsterSizeSeeder::class,
+            MonsterTypeSeeder::class,
+            MonsterSeeder::class
         ]);
     }
 }

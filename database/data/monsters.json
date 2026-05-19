@@ -1,0 +1,215 @@
+{
+  "monsters": [
+    {
+      "name": "Lupo delle Braci",
+      "description": "Predatore vulcanico dal pelo ardente e dagli occhi incandescenti, nato nelle profondità di montagne attive e distese di lava fumante. Vive in branchi altamente territoriali guidati da un esemplare alfa particolarmente aggressivo. Utilizza tattiche di accerchiamento coordinate e attacca le prede sfruttando il calore del proprio corpo per incendiare vegetazione, armature leggere e scudi di legno durante la caccia.",
+      "image": "monsters/lupo_delle_braci.jpg",
+      "size_id": 2,
+      "types": [2, 8]
+    },
+    {
+      "name": "Cavaliere Caduto",
+      "description": "Antico guerriero riportato in vita tramite rituali di necromanzia proibita celebrati in cripte dimenticate. Indossa ancora l’armatura corrotta della propria casata e conserva frammenti della disciplina militare che possedeva in vita. Combatte con freddezza e precisione innaturale, pattugliando rovine e campi di battaglia abbandonati alla ricerca di intrusi da eliminare senza alcuna pietà.",
+      "image": "monsters/cavaliere_caduto.jpg",
+      "size_id": 3,
+      "types": [16, 19]
+    },
+    {
+      "name": "Drago della Piaga",
+      "description": "Enorme drago corrotto da energie infernali e pestilenziali, il cui corpo è ricoperto da scaglie marce e ferite pulsanti. Il suo respiro diffonde malattie mortali, muffe tossiche e decomposizione accelerata, contaminando interi villaggi nel giro di poche ore. Le creature sopravvissute al suo passaggio spesso mutano in esseri deformi e aggressivi al servizio della bestia.",
+      "image": "monsters/drago_della_piaga.jpg",
+      "size_id": 5,
+      "types": [7, 5]
+    },
+    {
+      "name": "Custode Runico",
+      "description": "Costrutto antico animato da rune eterne incise su gigantesche placche di pietra e metallo. Al suo interno sono imprigionati spiriti guerrieri condannati a servire per l’eternità. Veglia su templi sepolti, archivi perduti e reliquie proibite, reagendo con estrema violenza contro chiunque tenti di oltrepassare i confini del proprio territorio sacro.",
+      "image": "monsters/custode_runico.jpg",
+      "size_id": 4,
+      "types": [4, 18]
+    },
+    {
+      "name": "Aberrazione Astrale",
+      "description": "Entità proveniente dal vuoto cosmico oltre le stelle conosciute, dotata di anatomia impossibile e mente aliena. La sua sola presenza altera la percezione della realtà, causando allucinazioni, paranoia e follia progressiva negli esseri mortali. Comunica attraverso sussurri telepatici incomprensibili e sembra nutrirsi dell’energia mentale e dei ricordi delle proprie vittime.",
+      "image": "monsters/aberrazione_astrale.jpg",
+      "size_id": 4,
+      "types": [1, 18]
+    },
+    {
+      "name": "Chimera Selvaggia",
+      "description": "Creatura mostruosa composta da più specie fuse insieme tramite antica magia proibita praticata da culti dimenticati. Il suo corpo presenta artigli, corna, ali e teste appartenenti a predatori differenti che combattono costantemente per il controllo. Estremamente imprevedibile e feroce, attacca qualsiasi forma di vita entri nel suo territorio con violenza incontrollata.",
+      "image": "monsters/chimera_selvaggia.jpg",
+      "size_id": 5,
+      "types": [12, 14]
+    },
+    {
+      "name": "Spettro del Monastero",
+      "description": "Fantasma inquieto di un antico monaco incapace di trovare pace dopo aver tradito il proprio ordine durante una guerra sacra. Si manifesta nei corridoi silenziosi di monasteri in rovina, avvolto da nebbie fredde e canti lontani. La sua presenza prosciuga lentamente il calore vitale delle creature viventi e provoca profonde visioni disturbanti.",
+      "image": "monsters/spettro_del_monastero.jpg",
+      "size_id": 2,
+      "types": [16, 18]
+    },
+    {
+      "name": "Troll delle Paludi",
+      "description": "Gigante brutale adattato a paludi tossiche e foreste sommerse, dotato di capacità rigenerative eccezionali che gli permettono di ricostruire arti e carne in pochi minuti. La sua pelle ricoperta di fango e alghe lo rende difficile da individuare tra le acque stagnanti. Attacca con furia devastante chiunque osi attraversare il suo territorio.",
+      "image": "monsters/troll_delle_paludi.jpg",
+      "size_id": 4,
+      "types": [11, 14]
+    },
+    {
+      "name": "Arpia Cremisi",
+      "description": "Predatrice alata dall’aspetto umanoide e dalle piume rosso scuro, famosa per la propria voce ipnotica capace di attirare viaggiatori isolati verso gole e dirupi nascosti. Ama tormentare le proprie prede prima dell’attacco finale, osservandole dall’alto con crudele pazienza. Nidifica in rovine montane ricoperte di ossa e oggetti sottratti alle vittime.",
+      "image": "monsters/arpia_cremisi.jpg",
+      "size_id": 2,
+      "types": [14, 19]
+    },
+    {
+      "name": "Melma Corrosiva",
+      "description": "Entità gelatinosa semicosciente capace di sciogliere armature, ossa e carne in pochi secondi attraverso potenti enzimi corrosivi. Si muove lentamente nei sotterranei umidi lasciando dietro di sé scie fumanti e superfici deformate dall’acido. Non possiede occhi né organi visibili, ma percepisce vibrazioni e calore con precisione inquietante.",
+      "image": "monsters/melma_corrosiva.jpg",
+      "size_id": 3,
+      "types": [13]
+    },
+    {
+      "name": "Ent della Foresta Antica",
+      "description": "Guardiano vegetale millenario legato alle foreste primordiali e ai cicli naturali della terra. Il suo corpo gigantesco è formato da radici, corteccia e pietra ricoperte di muschio luminoso. Difende alberi sacri, sorgenti e creature silvane con pazienza antica ma devastante brutalità quando il proprio territorio viene profanato o incendiato.",
+      "image": "monsters/ent_della_foresta.jpg",
+      "size_id": 5,
+      "types": [17, 18]
+    },
+    {
+      "name": "Diavolo Archivista",
+      "description": "Creatura infernale specializzata nella raccolta di segreti, conoscenze proibite e contratti maledetti stipulati con anime disperate. Vive in immense biblioteche nascoste nei piani infernali, dove custodisce pergamene viventi e tomi incatenati. Preferisce manipolare mortali ambiziosi piuttosto che combattere direttamente, sfruttando ricatti e promesse di potere.",
+      "image": "monsters/diavolo_archivista.jpg",
+      "size_id": 2,
+      "types": [6, 19]
+    },
+    {
+      "name": "Demone Famelico",
+      "description": "Bestia infernale dominata da una fame eterna e incontrollabile che non può essere placata da alcun nutrimento mortale. Le sue fauci deformi sono in grado di frantumare ossa e armature pesanti con estrema facilità. Devasta villaggi e campi di battaglia divorando corpi, anime e persino energia magica lasciando dietro di sé soltanto rovina.",
+      "image": "monsters/demone_famelico.jpg",
+      "size_id": 4,
+      "types": [5, 14]
+    },
+    {
+      "name": "Golem di Ossa",
+      "description": "Costrutto necromantico assemblato con resti di creature gigantesche recuperate da antichi campi di guerra e cimiteri dimenticati. Le sue ossa sono fuse insieme tramite rituali oscuri e rune di controllo incise direttamente sui teschi che compongono il corpo. Combatte senza paura né dolore, avanzando lentamente ma con forza devastante.",
+      "image": "monsters/golem_di_ossa.jpg",
+      "size_id": 4,
+      "types": [4, 16]
+    },
+    {
+      "name": "Fata delle Lanterne",
+      "description": "Piccola creatura del Piano Fatato che vaga nelle foreste notturne trasportando minuscole lanterne magiche sospese nell’aria. Appare innocua e curiosa, ma spesso conduce viaggiatori smarriti verso luoghi incantati da cui è difficile fare ritorno. La sua presenza è accompagnata da luci soffuse, canti lontani e inspiegabili alterazioni del tempo.",
+      "image": "monsters/fata_delle_lanterne.jpg",
+      "size_id": 1,
+      "types": [9]
+    },
+    {
+      "name": "Folletto delle Spine",
+      "description": "Creatura fatata aggressiva che protegge territori selvaggi utilizzando trappole naturali, rovi animati e illusioni ingannevoli. Vive nascosta tra cespugli intricati e alberi contorti, osservando silenziosamente chiunque entri nel proprio dominio. Nonostante le dimensioni ridotte, è estremamente crudele e colpisce sempre sfruttando velocità e imboscate improvvise.",
+      "image": "monsters/folletto_delle_spine.jpg",
+      "size_id": 1,
+      "types": [9, 17]
+    },
+    {
+      "name": "Revenant Silenzioso",
+      "description": "Non morto guidato esclusivamente dal desiderio di vendetta contro coloro che lo hanno tradito o assassinato in vita. Si muove lentamente ma con determinazione inarrestabile, ignorando dolore, paura e ostacoli fisici. Il suo volto nascosto e il silenzio assoluto che accompagna la sua presenza generano terrore persino tra guerrieri esperti.",
+      "image": "monsters/revenant_silensioso.jpg",
+      "size_id": 3,
+      "types": [16, 19]
+    },
+    {
+      "name": "Serpente del Vuoto",
+      "description": "Creatura aberrante proveniente da dimensioni cosmiche sconosciute, caratterizzata da un corpo smisurato ricoperto di squame nere simili a ossidiana. I suoi occhi privi di pupille sembrano assorbire la luce circostante e destabilizzare la mente di chi li osserva troppo a lungo. Si dice che possa attraversare portali dimensionali e divorare intere spedizioni.",
+      "image": "monsters/serpente_del_vuoto.jpg",
+      "size_id": 5,
+      "types": [1, 14]
+    },
+
+{
+    "name": "Gigante del Gelo",
+    "description": "Colosso primordiale adattato ai climi più estremi, nato tra montagne ghiacciate e tundre battute da tempeste eterne. La sua pelle azzurra è dura quanto il granito congelato e il suo respiro può trasformare l’umidità dell’aria in lame di ghiaccio affilate. Vive in territori isolati e considera qualsiasi intruso una minaccia da eliminare con forza brutale.",
+    "image": "monsters/gigante_del_gelo.jpg",
+    "size_id": 5,
+    "types": [11]
+  },
+  {
+    "name": "Mutante della Cripta",
+    "description": "Creatura deformata da contaminazioni necromantiche sviluppatesi nelle profondità di cripte maledette e laboratori proibiti. Il suo corpo è composto da carne instabile, arti sproporzionati e ossa esposte che continuano a mutare nel tempo. Aggredisce ogni forma di vita guidato da istinti incontrollabili e diffonde malattie oscure attraverso artigli e morsi contaminati.",
+    "image": "monsters/mutante_della_cripta.jpg",
+    "size_id": 3,
+    "types": [15, 16]
+  },
+  {
+    "name": "Drago Celestiale",
+    "description": "Creatura draconica legata alle sfere divine e alla magia sacra, venerata in antiche civiltà come messaggero degli dèi. Le sue scaglie brillano come costellazioni e le sue ali emanano luce dorata durante il volo. Combatte le entità corrotte e protegge luoghi consacrati, utilizzando un soffio mistico capace di purificare maledizioni e oscurità.",
+    "image": "monsters/drago_celestiale.jpg",
+    "size_id": 5,
+    "types": [7, 3]
+  },
+  {
+    "name": "Bestia delle Tempeste",
+    "description": "Predatore elementale generato durante uragani magici e violente tempeste arcane che sconvolgono il cielo. Il suo corpo è formato da energia elettrica, vento e frammenti di nube oscura in continuo movimento. Si muove con velocità impressionante e attacca scaricando fulmini devastanti che possono distruggere intere strutture nel giro di pochi istanti.",
+    "image": "monsters/bestia_delle_tempeste.jpg",
+    "size_id": 4,
+    "types": [2, 8]
+  },
+  {
+    "name": "Lich Imperiale",
+    "description": "Sovrano immortale che ha sacrificato la propria umanità per ottenere potere assoluto attraverso rituali proibiti di necromanzia avanzata. Dimora in fortezze oscure circondate da eserciti di non morti e biblioteche colme di conoscenze maledette. Conserva un’intelligenza straordinaria e manipola regni interi attraverso paura, magia oscura e intrighi politici.",
+    "image": "monsters/lich_imperiale.jpg",
+    "size_id": 3,
+    "types": [16, 19]
+  },
+  {
+    "name": "Basilisco Nero",
+    "description": "Rettile mostruoso dalle scaglie nere lucenti capace di pietrificare le proprie vittime con un singolo sguardo diretto. Vive in caverne profonde, rovine dimenticate e canyon isolati ricoperti da statue di antichi avventurieri trasformati in pietra. È estremamente aggressivo e utilizza veleno paralizzante per immobilizzare le prede prima dell’attacco finale.",
+    "image": "monsters/basilisco_nero.jpg",
+    "size_id": 4,
+    "types": [14, 2]
+  },
+  {
+    "name": "Elementale di Cenere",
+    "description": "Manifestazione instabile di incendi arcani e polvere vulcanica nata da eruzioni magiche fuori controllo. Il suo corpo mutevole è composto da cenere rovente, brace viva e fumo oscuro che si disperde continuamente nell’aria circostante. Ovunque passi lascia terreni carbonizzati, aria tossica e incendi impossibili da spegnere con metodi ordinari.",
+    "image": "monsters/elementale_della_cenere.jpg",
+    "size_id": 4,
+    "types": [8]
+  },
+  {
+    "name": "Spirito della Guerra",
+    "description": "Entità eterea alimentata dalla violenza dei campi di battaglia e dalle emozioni generate durante massacri e conflitti sanguinosi. Appare come una figura spettrale avvolta da armature spezzate, fumo e bandiere lacerate dal vento. Si rafforza assorbendo rabbia, paura e disperazione, spingendo eserciti interi verso combattimenti sempre più brutali.",
+    "image": "monsters/spirito_della_guerra.jpg",
+    "size_id": 3,
+    "types": [18]
+  },
+  {
+    "name": "Ragno Gigante Cremisi",
+    "description": "Predatore cavernicolo dalle dimensioni enormi dotato di veleno paralizzante estremamente rapido e doloroso. Il suo esoscheletro rosso scuro gli permette di mimetizzarsi tra rocce ferruginose e ambienti sotterranei illuminati dalla lava. Costruisce immense ragnatele nei tunnel abbandonati e trascina lentamente le prede immobilizzate verso il proprio nido.",
+    "image": "monsters/ragno_gigante_cremisi.jpg",
+    "size_id": 4,
+    "types": [2]
+  },
+  {
+    "name": "Manticora Oscura",
+    "description": "Mostruosità volante estremamente territoriale e aggressiva, dotata di corpo leonino, ali membranose e coda ricoperta di aculei velenosi. Vive in canyon remoti e rovine dimenticate dove accumula ossa, armi e resti delle proprie vittime. Attacca dall’alto con velocità brutale e utilizza urla feroci per terrorizzare gli avversari prima dello scontro.",
+    "image": "monsters/manticora_oscura.jpg",
+    "size_id": 4,
+    "types": [14]
+  },
+  {
+    "name": "Cacciatore Infernale",
+    "description": "Segugio demoniaco addestrato per inseguire anime fuggitive e rintracciare bersagli attraverso piani dimensionali differenti. Il suo corpo annerito emana calore infernale e gli occhi cremisi brillano nel buio come braci vive. È instancabile durante la caccia e utilizza artigli incandescenti e morsi sovrannaturali per abbattere rapidamente le proprie prede.",
+    "image": "monsters/cacciatore_infernale.jpg",
+    "size_id": 3,
+    "types": [5, 2]
+  },
+  {
+    "name": "Titanide di Pietra",
+    "description": "Antica creatura gigante con pelle simile alla roccia e forza sufficiente a distruggere mura fortificate con pochi colpi devastanti. Dorme per secoli sotto montagne e vallate prima di risvegliarsi in seguito a terremoti o potenti rituali magici. Il suo corpo è attraversato da crepe incandescenti che emanano energia primordiale instabile.",
+    "image": "monsters/titanide_di_pietra.jpg",
+    "size_id": 6,
+    "types": [11, 8]
+  }
+  ]
+}

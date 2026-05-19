@@ -13,6 +13,6 @@ class Monster extends Model
 
     public function size()
     {
-        return $this->belongsTo(MonsterSize::class);
+        return $this->belongsTo(MonsterSize::class, 'monster_size_id', 'id');
     }
 }
