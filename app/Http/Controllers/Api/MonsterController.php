@@ -15,6 +15,10 @@ class MonsterController extends Controller
     {
         $query = Monster::with('types', 'size');
 
+        if ($request->search) {
+            $query->where('name', 'like', '%' . $request->search . '%');
+        }
+
         $order = $request->input('order');
 
         if (in_array($order, ['asc', 'desc'])) {
