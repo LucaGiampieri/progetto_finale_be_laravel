@@ -11,16 +11,22 @@ class MonsterController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
-        $monsters = Monster::with('types', 'size')->get();
+        $query = Monster::with('types', 'size');
 
-        return response()->json(
-            [
-                "success" => true,
-                "data" => $monsters
-            ]
-        );
+        $order = $request->input('order');
+
+        if (in_array($order, ['asc', 'desc'])) {
+            $query->orderBy('name', $order);
+        }
+
+        $monsters = $query->get();
+
+        return response()->json([
+            "success" => true,
+            "data" => $monsters
+        ]);
     }
 
     /**
