@@ -13,19 +13,10 @@ class MonsterController extends Controller
      */
     public function index(Request $request)
     {
-        $query = Monster::with('types', 'size');
-
-        if ($request->search) {
-            $query->where('name', 'like', '%' . $request->search . '%');
-        }
-
-        $order = $request->input('order');
-
-        if (in_array($order, ['asc', 'desc'])) {
-            $query->orderBy('name', $order);
-        }
-
-        $monsters = $query->get();
+        $monsters = Monster::with('types', 'size')
+            ->search($request->search)
+            ->ordered($request->order)
+            ->get();
 
         return response()->json([
             "success" => true,

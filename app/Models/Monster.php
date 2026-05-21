@@ -20,4 +20,22 @@ class Monster extends Model
     {
         return $this->belongsTo(MonsterSize::class, 'monster_size_id', 'id');
     }
+
+    public function scopeSearch($query, $search)
+    {
+        if ($search) {
+            $query->where('name', 'like', '%' . $search . '%');
+        }
+
+        return $query;
+    }
+
+    public function scopeOrdered($query, $order)
+    {
+        if (in_array($order, ['asc', 'desc'])) {
+            $query->orderBy('name', $order);
+        }
+
+        return $query;
+    }
 }
