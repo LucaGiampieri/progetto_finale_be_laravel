@@ -3,26 +3,22 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Models\Monster;
+use App\Models\MonsterType;
 use Illuminate\Http\Request;
 
-class MonsterController extends Controller
+class MonsterTypeController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
-    public function index(Request $request)
+    public function index()
     {
-        $monsters = Monster::with('types', 'size')
-            ->search($request->search)
-            ->ordered($request->order)
-            ->byType($request->type)
-            ->bySize($request->size)
-            ->get();
+
+        $monsterTypes = MonsterType::all();
 
         return response()->json([
-            "success" => true,
-            "data" => $monsters
+            'success' => true,
+            'data' => $monsterTypes
         ]);
     }
 
@@ -37,16 +33,9 @@ class MonsterController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(Monster $monster)
+    public function show(string $id)
     {
-        $monster->load('types', 'size');
-
-        return response()->json(
-            [
-                "success" => true,
-                "data" => $monster
-            ]
-        );
+        //
     }
 
     /**

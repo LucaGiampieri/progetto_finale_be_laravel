@@ -38,4 +38,24 @@ class Monster extends Model
 
         return $query;
     }
+
+    public function scopeByType($query, $type)
+    {
+        if ($type) {
+            $query->whereHas('types', function ($q) use ($type) {
+                $q->where('monster_types.id', $type);
+            });
+        }
+
+        return $query;
+    }
+
+    public function scopeBySize($query, $size)
+    {
+        if ($size) {
+            $query->where('monster_size_id', $size);
+        }
+
+        return $query;
+    }
 }
